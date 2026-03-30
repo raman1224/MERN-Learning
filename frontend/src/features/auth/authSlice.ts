@@ -4,8 +4,7 @@ import { User, AuthState, LoginCredentials, RegisterCredentials } from '../../ty
 
 axios.defaults.withCredentials = true;
 
-const API_URL = '/api/auth';
-
+const API_URL = `${import.meta.env.VITE_API_URL}/api/auth`;
 const initialState: AuthState = {
   user: null,
   isLoading: false,
