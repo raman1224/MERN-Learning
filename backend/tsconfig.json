@@ -3,7 +3,6 @@
     // File Layout
     "rootDir": "./",
     "outDir": "./dist",
-    
     // Environment Settings
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
